@@ -17,6 +17,11 @@
 		8C0217E328AD736E00703CFC /* CountriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0217E228AD736E00703CFC /* CountriesTests.swift */; };
 		8C0217ED28AD736E00703CFC /* CountriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0217EC28AD736E00703CFC /* CountriesUITests.swift */; };
 		8C0217EF28AD736E00703CFC /* CountriesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0217EE28AD736E00703CFC /* CountriesUITestsLaunchTests.swift */; };
+		8C0217FC28AD7B0600703CFC /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0217FB28AD7B0600703CFC /* CustomTableViewCell.swift */; };
+		8C948BF528B16067000800AF /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C948BF428B16067000800AF /* DetailsViewController.swift */; };
+		8CF3116728B0F91100130AF5 /* FavoriteCountries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF3116628B0F91100130AF5 /* FavoriteCountries.swift */; };
+		8CF3116928B0FE0100130AF5 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF3116828B0FE0100130AF5 /* FavoritesViewController.swift */; };
+		8CF3116B28B0FFA900130AF5 /* CustomFavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF3116A28B0FFA900130AF5 /* CustomFavoriteTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		8C0217E828AD736E00703CFC /* CountriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C0217EC28AD736E00703CFC /* CountriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesUITests.swift; sourceTree = "<group>"; };
 		8C0217EE28AD736E00703CFC /* CountriesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8C0217FB28AD7B0600703CFC /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		8C948BF428B16067000800AF /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		8CF3116628B0F91100130AF5 /* FavoriteCountries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCountries.swift; sourceTree = "<group>"; };
+		8CF3116828B0FE0100130AF5 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		8CF3116A28B0FFA900130AF5 /* CustomFavoriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFavoriteTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +114,11 @@
 				8C0217C828AD736E00703CFC /* AppDelegate.swift */,
 				8C0217CA28AD736E00703CFC /* SceneDelegate.swift */,
 				8C0217CC28AD736E00703CFC /* ViewController.swift */,
+				8CF3116828B0FE0100130AF5 /* FavoritesViewController.swift */,
+				8C948BF428B16067000800AF /* DetailsViewController.swift */,
+				8C0217FB28AD7B0600703CFC /* CustomTableViewCell.swift */,
+				8CF3116A28B0FFA900130AF5 /* CustomFavoriteTableViewCell.swift */,
+				8CF3116628B0F91100130AF5 /* FavoriteCountries.swift */,
 				8C0217CE28AD736E00703CFC /* Main.storyboard */,
 				8C0217D428AD736E00703CFC /* Assets.xcassets */,
 				8C0217D628AD736E00703CFC /* LaunchScreen.storyboard */,
@@ -261,9 +276,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CF3116728B0F91100130AF5 /* FavoriteCountries.swift in Sources */,
 				8C0217CD28AD736E00703CFC /* ViewController.swift in Sources */,
+				8C948BF528B16067000800AF /* DetailsViewController.swift in Sources */,
+				8CF3116928B0FE0100130AF5 /* FavoritesViewController.swift in Sources */,
+				8C0217FC28AD7B0600703CFC /* CustomTableViewCell.swift in Sources */,
 				8C0217C928AD736E00703CFC /* AppDelegate.swift in Sources */,
 				8C0217D328AD736E00703CFC /* Countries.xcdatamodeld in Sources */,
+				8CF3116B28B0FFA900130AF5 /* CustomFavoriteTableViewCell.swift in Sources */,
 				8C0217CB28AD736E00703CFC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
